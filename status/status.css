@@ -47,6 +47,16 @@
     margin: 0 auto 3rem;
 }
 
+#wpeVersions {
+    max-width: 920px;
+    margin: 0 auto 3rem;
+}
+
+#wpeVersions li {
+    font-size: 2rem;
+
+}
+
 .feature-filters {
     background-color: hsl(0, 0%, 0%);
     background-color: var(--figure-mattewhite-background-color);
