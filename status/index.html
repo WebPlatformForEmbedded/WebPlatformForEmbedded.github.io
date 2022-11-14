@@ -9,7 +9,7 @@
 <body>
     <main id="content">
         <div class="page feature-status-page" id="post">
-            <h1><a id="mainLink" href="status.html" rel="bookmark" title="Permanent Link: WPE WebKit Feature Status">WPE WebKit <span id="wpeVersion"></span> Feature Status</a></h1>
+            <h1><a id="mainLink" href="index.html" rel="bookmark" title="Permanent Link: WPE WebKit Feature Status">WPE WebKit <span id="wpeVersion"></span> Feature Status</a></h1>
 
             <section>
                 <p id="intro">This page list the status of diverse HTML, CSS and Javascript features on the WPE <span id="wpeTextVersion"></span></span> branch of <a href="https://github.com/WebPlatformForEmbedded/WPEWebKit">WPE WebKit</a>.</p>
@@ -105,7 +105,7 @@ function setupVersionLists() {
         let li = document.createElement("li");
         let link = document.createElement("a");
         link.textContent = `WPE ${supportedVersion}`;
-        link.href = `status.html/?version=${supportedVersion}`;
+        link.href = `/status/?version=${supportedVersion}`;
         li.appendChild(link)
         versionList.appendChild(li);
 
